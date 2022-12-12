@@ -22,6 +22,20 @@ p{
     font-size: 1.1rem;
 }
 
+/* SCROLLBAR */
+*::-webkit-scrollbar {
+    width: 0.5rem;
+    padding-right: 10px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+    padding-right: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color);
+    border-radius: 0.625rem;
+    margin-right: 2rem;
+}
 
 /* NAVBAR */
 .navbar{
