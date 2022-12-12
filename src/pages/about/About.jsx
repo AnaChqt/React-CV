@@ -1,9 +1,93 @@
 import React from 'react';
+// CSS
+import './About.css';
+// Bootstrap
+import { Container, Row, Col, Accordion } from 'react-bootstrap';
+// Images
+import profile from '../../assets/test.png';
 
-function About() {
-  return (
-    <h1>About</h1>
-  )
-}
+const About = () => {
+	return (
+		<>
+			<Container className="box mb-5">
+				<Row className="d-flex mb-5">
 
-export default About
+					<Col xs={12} lg={5} className="d-flex justify-content-center align-items-center">
+						<img src={ profile } alt="me in front of New York Skyline" className="profil rounded-circle shadow-lg" />
+					</Col> 
+
+					<Col xs={12} lg={7} className="text-center px-5 mt-5">
+						<div className="biographie">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar massa a tellus iaculis luctus.</p>                      
+							<p>Sed accumsan arcu gravida aliquam aliquet. Aliquam erat volutpat. Nam tristique tortor a lorem fermentum, quis luctus felis facilisis.</p>
+							<p>Etiam non vulputate ligula. Maecenas ligula arcu, sollicitudin at eleifend sit amet, ultricies vitae est.</p> 
+                            <p>Praesent congue neque in sollicitudin lacinia. Donec sit amet aliquet arcu, id pellentesque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> 
+                        </div>
+						
+						
+					</Col>
+				</Row>
+
+				<Row>
+					<div className="mt-5 text-center">
+						<h1 className='mb-5'>Skills</h1>
+					</div>
+					<Col xs={12} lg={6} className="mb-5">
+						<Accordion className="shadow-lg rounded">
+							<Accordion.Item eventKey="0" >
+								<Accordion.Header >FRONT-END</Accordion.Header>
+									<Accordion.Body className="rounded">
+										<p className="skills mt-4 text-center">Création et intégration de sites web et applications mobiles responsive, accessibles et répondant aux normes W3C.</p>
+										<p className="text-center skills_name fw-bold">HTML5 - CSS3 - JavaScript - ReactJS - Json - Bootstrap</p>
+									</Accordion.Body>
+							</Accordion.Item>
+						</Accordion>
+					</Col>
+
+					<Col xs={12} lg={6} className="mb-5">
+						<Accordion className="shadow-lg rounded">
+							<Accordion.Item eventKey="0">
+								<Accordion.Header className="fw-bold">BACK-END</Accordion.Header>
+									<Accordion.Body className="rounded">
+										<p className="skills mt-4 text-center">Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet.</p>
+										<p className="skills_name text-center fw-bold">PHP7 - Symfony5 - SQL</p>
+									</Accordion.Body>
+							</Accordion.Item>
+						</Accordion>
+					</Col>
+
+					<Col xs={12} lg={6} className="mb-5">
+						<Accordion className="shadow-lg rounded">
+							<Accordion.Item eventKey="0">
+								<Accordion.Header className="fw-bold">CMS/WEB DESIGN</Accordion.Header>
+									<Accordion.Body className="rounded">
+										<p className="skills mt-4 text-center">Création et édition de thème Wordpress. Création de maquettes et conception centrée UX.</p>
+										<p className="skills_name text-center fw-bold">WordPress - WooCommerce - AdobeXD - Figma - Canva</p>
+									</Accordion.Body>
+							</Accordion.Item>
+						</Accordion>
+					</Col>
+
+					<Col xs={12} lg={6}>
+						<Accordion className="shadow-lg rounded">
+							<Accordion.Item eventKey="0">
+								<Accordion.Header className="fw-bold">ENVIRONNEMENT DE TRAVAIL</Accordion.Header>
+									<Accordion.Body className="rounded">
+										<p className="mt-4 px-3 skills text-center">
+											<b className="skills_name">Systèmes d'exploitation :</b> Windows 10, Windows 11 <br/>
+											<b className="skills_name">Workflow :</b> Git, Laragon, Chrome, FileZilla <br/>
+											<b className="skills_name">IDE :</b> Visual Studio Code <br/>
+											<b className="skills_name">Autres compétences :</b> Maîtrise de l'anglais (TOEIC 2018 : 945/990), traduction anglais/français <br/>
+											<b className="skills_name">Savoir-être :</b> Créativité, Réactivité, Autonomie, Polyvalence, Curiosité et Travail en équipe
+										</p>										
+									</Accordion.Body>
+							</Accordion.Item>
+						</Accordion>
+					</Col>
+				</Row>
+			</Container>
+		</>
+	);
+};
+
+export default About;

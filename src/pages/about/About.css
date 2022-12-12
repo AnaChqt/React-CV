@@ -1,0 +1,51 @@
+.box{
+    margin-top: 7rem;
+}
+.accordion-button{
+    background-color: var(--theme-color);
+    color: var(--background-color);
+}
+.accordion-button::after{
+    background-image: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--theme-color);
+    color: var(--background-color);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.accordion-body{
+    background-color: var(--background-color);
+}
+.skills {
+    line-height: 1.5;
+    padding: 0px 25px 25px;
+    cursor: auto;
+}
+.skills_name{
+    color: var(--theme-color);
+    line-height: 1.9;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px){
+    .box{
+        margin-top: 5rem;
+    }
+    .profil{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .box{
+        margin-top: 6rem;
+    }
+    .profil{
+        width: 95%;
+        height: 95%;
+    }
+}
+
