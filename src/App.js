@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Works from './pages/works/Works';
+import WorkDisplay from './pages/projects/WorkDisplay';
 import Contact from './pages/contact/Contact';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                     <Route exact path='/' element={<Home />} />
                     <Route path='/about' element={<About/>} />
                     <Route path='/works' element={<Works/>} />
+                    <Route path='/work/:id' element={<WorkDisplay/>} />
                     <Route path='/contact' element={<Contact/>} />
                 </Routes>
             <Footer />
