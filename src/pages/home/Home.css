@@ -1,0 +1,53 @@
+.block{
+    margin-top: 10rem;
+}
+.jobName{
+    color: var(--theme-color);
+}
+.social{
+    padding: 0.5rem;
+}
+.btnCV{
+    background: var(--background-color);
+    color: var(--theme-color);
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: var(--theme-color);
+    border-width: 2px;
+}
+button:focus {
+    box-shadow: none !important;
+}
+.btnCV:hover {
+    background: var(--theme-color);
+    border-color: var(--theme-color);
+    color: var(--background-color);
+}
+.btnCV:active {
+    background: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+}
+.size{
+    font-size: 0.9rem ;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px){
+    .block{
+        margin-top: 5rem;
+    }
+    .profil{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .block{
+        margin-top: 6rem;
+    }
+    .profil{
+        width: 95%;
+        height: 95%;
+    }
+}
