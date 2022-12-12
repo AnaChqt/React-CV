@@ -54,3 +54,9 @@ nav a.active{
     color: var(--theme-color);
     font-weight: bold;
 }
+
+/* FOOTER */
+.fixed-bottom{
+    background-color: var(--background-color);
+    box-shadow: 0 -2px 2px 0 var(--shadow-color);
+}

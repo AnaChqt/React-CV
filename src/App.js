@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 // Add components
 import NavbarExpand from './components/Navbar';
+import Footer from './components/Footer';
 // Router
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 // Add pages
@@ -24,6 +25,7 @@ function App() {
                     <Route path='/works' element={<Works/>} />
                     <Route path='/contact' element={<Contact/>} />
                 </Routes>
+            <Footer />
         </Router>
     )
 }
