@@ -2,4 +2,35 @@
     align-items: center;
     height: 30rem;
     background-color: var(--theme-color);
+    color: var(--background-color);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px){
+    .display{
+        width: 90%;
+        height: 90%;
+    }
+    .responsive{
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .display{
+        width: 95%;
+        height: 95%;
+    }
+    .responsive{
+        width: 95%;
+        height: 55%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .display{
+        width: 95%;
+        height: 95%;
+    }
 }
