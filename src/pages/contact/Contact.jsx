@@ -29,11 +29,12 @@ function Contact() {
         emailjs
         .send("service_nc8reol", "template_bwb8inz", formData, "OJQZtzeGeFfGqv75V")
         .then(
-            (result) => {
-            console.log(result.text);
+            () => {
+                alert('Votre message a bien été envoyé !');
+                window.location.reload(false);
             },
-            (error) => {
-            console.log(error.text);
+            () => {
+                alert('Une erreur est survenue, veuillez réessayer');
             }
         );
         reset();
