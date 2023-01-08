@@ -6,7 +6,6 @@
     --theme-color: #6C55E0;
     --shadow-color: #1619254d;
 }
-
 body{
     background-color: var(--background-color);
     font-family: 'Poppins', sans-serif;
@@ -45,7 +44,6 @@ p{
 .navbar{
     box-shadow: 0 2px 2px 0 var(--shadow-color);
 }
-
 a{
     text-decoration: none ;
     color: var(--text-color);
