@@ -8,7 +8,6 @@
     border-style: solid;
     border-color: var(--theme-color);
     width: auto;
-
 }
 .contact__btn{
     background: var(--background-color);
@@ -46,7 +45,6 @@ button:focus {
         height: 100%;
     }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .box{
         margin-top: 6rem;
@@ -56,4 +54,3 @@ button:focus {
         height: 100%;
     }
 }
-

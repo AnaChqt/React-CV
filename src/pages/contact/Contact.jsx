@@ -1,16 +1,10 @@
-import React from "react";
-// CSS
+import React from 'react';
 import "./Contact.css";
-// Bootstrap
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-// React-hook-form
 import { useForm } from 'react-hook-form';
-// Yup
 import * as yup from 'yup';
-// Resolver
 import { yupResolver } from '@hookform/resolvers/yup'
-// EmailJS
-import emailjs from "emailjs-com"
+import emailjs from 'emailjs-com'
 
 function Contact() {
     const contactSchema = yup.object().shape({
