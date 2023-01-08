@@ -1,33 +1,24 @@
 import React from 'react';
-// CSS
 import './About.css';
-// Bootstrap
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
-// Images
-import profile from '../../assets/test.png';
+import profile from '../../assets/profilePicture2.png';
 
 const About = () => {
 	return (
 		<>
 			<Container className="box mb-5">
 				<Row className="d-flex mb-5">
-
 					<Col xs={12} lg={5} className="d-flex justify-content-center align-items-center">
-						<img src={ profile } alt="me in front of New York Skyline" className="profil rounded-circle shadow-lg" />
+						<img src={ profile } alt="My profile picture" className="profil rounded-circle shadow-lg" />
 					</Col> 
-
 					<Col xs={12} lg={7} className="text-center px-5 mt-5">
 						<div className="biographie">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar massa a tellus iaculis luctus.</p>                      
-							<p>Sed accumsan arcu gravida aliquam aliquet. Aliquam erat volutpat. Nam tristique tortor a lorem fermentum, quis luctus felis facilisis.</p>
-							<p>Etiam non vulputate ligula. Maecenas ligula arcu, sollicitudin at eleifend sit amet, ultricies vitae est.</p> 
-                            <p>Praesent congue neque in sollicitudin lacinia. Donec sit amet aliquet arcu, id pellentesque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> 
+							<p>Après des études en archéologie, j'ai décidé d'entammer une reconversion dans le numérique et dans la création de sites internet. D'abord en autodidacte, j'ai intégré par la suite une formation "Développement Web et Web Mobile".</p>                      
+							<p>Curieuse et passionnée, j'aime apprendre constamment de nouvelles choses. Ayant un intéret en plus pour le design, c'est tout naturellement que je me spécialise dans le développement front et la maitrise de l'UI/UX.</p>
+							<p>Autonome de nature, je peux travailler seule ou en groupe et je sais également m'adapter à un environnement que je ne connais pas. L'accessibilité et l'optimisation du code sont mes priorités.</p> 
                         </div>
-						
-						
 					</Col>
 				</Row>
-
 				<Row>
 					<div className="mt-5 text-center">
 						<h1 className='mb-5'>Skills</h1>
@@ -43,7 +34,6 @@ const About = () => {
 							</Accordion.Item>
 						</Accordion>
 					</Col>
-
 					<Col xs={12} lg={6} className="mb-5">
 						<Accordion className="shadow-lg rounded">
 							<Accordion.Item eventKey="0">
@@ -55,7 +45,6 @@ const About = () => {
 							</Accordion.Item>
 						</Accordion>
 					</Col>
-
 					<Col xs={12} lg={6} className="mb-5">
 						<Accordion className="shadow-lg rounded">
 							<Accordion.Item eventKey="0">
@@ -67,7 +56,6 @@ const About = () => {
 							</Accordion.Item>
 						</Accordion>
 					</Col>
-
 					<Col xs={12} lg={6}>
 						<Accordion className="shadow-lg rounded">
 							<Accordion.Item eventKey="0">
