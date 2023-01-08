@@ -1,5 +1,4 @@
 import React from 'react';
-// Route
 import { useNavigate } from 'react-router-dom';
 
 const WorkItem = ({ item, id }) => {
@@ -9,7 +8,6 @@ const WorkItem = ({ item, id }) => {
             navigate("/work/" + id)
         }}>
             <img className="work__img rounded-top" src={ item.image } alt={ item.title } key={ item.id }/>
-
             <div className='pt-3 '>
                 <h5 className='fw-bold title'>{ item.title }</h5>
                 <div>

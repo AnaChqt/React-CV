@@ -1,9 +1,6 @@
 import React from 'react';
-// CSS
 import './Works.css';
-// Bootstrap
 import { Container, Row } from 'react-bootstrap';
-// Page
 import Portfolio from '../../components/Portfolio';
 
 const Works = () => {
