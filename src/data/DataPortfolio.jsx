@@ -38,7 +38,7 @@ export const projectsList = [
         first_display: Wanderlust1,
         responsive: Wanderlust2,
         description1: 'Réalisation d\'un clone de pinterest sur le thème des voyages. L\'utilisateur doit obligatoirement s\'inscrire pour publier une épingle. Il est ensuite le seul à pouvoir modifier et supprimer ses épingles.',
-        description2: 'Des améliorations futures sont à prévoir avec par exemple la mise en place d\'un super admin afin de pouvoir controler les épingles publiées et modifiées par les utilisateurs et de les supprimer si besoin.',
+        description2: 'Des améliorations futures sont à prévoir avec par exemple la mise en place d\'un super admin. Celui-ci pourra contrôler les épingles publiées et modifiées par les utilisateurs et les supprimer si besoin.',
         demo:"https://github.com/AnaChqt/Symfony--Wanderlust"
     },
     {
@@ -67,8 +67,8 @@ export const projectsList = [
         category: 'PHP',
         first_display: Medic1,
         responsive: Medic2,
-        description1: 'Création d\'un site de gestion de patients en PHP. Différents formulaires sécurisé permettent l\'ajout des patients et des rendez-vous.',
-        description2: 'Mise en place également d\'un affichage des doonées sous form de tableaux',
+        description1: 'Création d\'un site de gestion de patients en PHP. Différents formulaires sécurisés permettent l\'ajout de patients et de rendez-vous.',
+        description2: 'Mise en place également d\'un affichage des doonées sous forme de tableaux',
         demo:"https://github.com/AnaChqt/LaManu--ManuMedic"
     },
     {
@@ -88,7 +88,7 @@ export const projectsList = [
         first_display: Calendar1,
         responsive: Calendar2,
         description1: 'Création d\'un calendrier dynamique en PHP. Ici l\'utilisateur choisi dans un premier temps, à l\'aide d\'un menu déroulant, la date de son choix. Une fois validée, il arrive sur le mois et l\'année en question.',
-        description2: 'D\'autres améliorations futures sont à prévoir comme le regroupement du menu déroulant sur le calendrier, un design différents pour chaque mois de l\'année ou encore l\'ajout de dates importantes.',
+        description2: 'D\'autres améliorations futures sont à prévoir comme le regroupement du menu déroulant sur le calendrier, un design différent pour chaque mois de l\'année ou encore l\'ajout de dates importantes.',
         demo:"https://github.com/AnaChqt/LaManu--Calendar"
     },
     {
@@ -99,7 +99,7 @@ export const projectsList = [
         responsive: Shifumi2,
         description1: 'Réinterprétation du jeu pierre-feuille-ciseaux sur le thème Harry Potter et créé de manière dynamique avec JavaScript. Le joueur joue contre l\'ordinateur',
         description2: 'Création d\'un compteur de points. Des améliorations futures sont à prévoir avec notament la mise en place d\'un système de partie.',
-        demo:""
+        demo:"https://anachqt.github.io/V2--ShiFuMi_HP/"
     },
     {
         image: Movies,
