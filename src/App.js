@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 import NavbarExpand from './components/Navbar';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Works from './pages/works/Works';
@@ -17,10 +17,10 @@ function App() {
             <NavbarExpand />
                 <Routes>
                     <Route exact path='/React-CV' element={<Home />} />
-                    <Route exact path='/React-CV/about' element={<About/>} />
-                    <Route exact path='/React-CV/works' element={<Works/>} />
-                    <Route exact path='/React-CV/work/:id' element={<WorkDisplay/>} />
-                    <Route exact path='/React-CV/contact' element={<Contact/>} />
+                    <Route path='/about' element={<About/>} />
+                    <Route path='/works' element={<Works/>} />
+                    <Route path='/work/:id' element={<WorkDisplay/>} />
+                    <Route path='/contact' element={<Contact/>} />
                 </Routes>
             <Footer />
         </Router>
