@@ -9,7 +9,7 @@ const NavbarExpand = () => {
 		<>
 			<Navbar collapseOnSelect expand="sm" bg="light" className="fixed-top">
 				<Container>
-					<NavLink className="brand mt-2" to="/">Anaïs Choquet</NavLink>
+					<NavLink className="brand mt-2" to="/React-CV">Anaïs Choquet</NavLink>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="navbar-nav mt-2 ms-auto">
