@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-CV/static/css/main.d92586ea.css",
-    "main.js": "/React-CV/static/js/main.cef49f13.js",
+    "main.js": "/React-CV/static/js/main.dfc87826.js",
     "static/js/787.11baedba.chunk.js": "/React-CV/static/js/787.11baedba.chunk.js",
     "static/media/cv.pdf": "/React-CV/static/media/cv.fbe31427de0cdc141b10.pdf",
     "static/media/shifumi2.png": "/React-CV/static/media/shifumi2.a1f8fb27125b7c02da41.png",
@@ -32,11 +32,11 @@
     "static/media/cv1.jpg": "/React-CV/static/media/cv1.944a56ab5d4632b6e182.jpg",
     "index.html": "/React-CV/index.html",
     "main.d92586ea.css.map": "/React-CV/static/css/main.d92586ea.css.map",
-    "main.cef49f13.js.map": "/React-CV/static/js/main.cef49f13.js.map",
+    "main.dfc87826.js.map": "/React-CV/static/js/main.dfc87826.js.map",
     "787.11baedba.chunk.js.map": "/React-CV/static/js/787.11baedba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d92586ea.css",
-    "static/js/main.cef49f13.js"
+    "static/js/main.dfc87826.js"
   ]
 }
