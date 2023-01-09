@@ -17,10 +17,10 @@ function App() {
             <NavbarExpand />
                 <Routes>
                     <Route exact path='/React-CV' element={<Home />} />
-                    <Route path='/about' element={<About/>} />
-                    <Route path='/works' element={<Works/>} />
-                    <Route path='/work/:id' element={<WorkDisplay/>} />
-                    <Route path='/contact' element={<Contact/>} />
+                    <Route path='/React-CV/about' element={<About/>} />
+                    <Route path='/React-CV/works' element={<Works/>} />
+                    <Route path='/React-CV/work/:id' element={<WorkDisplay/>} />
+                    <Route path='/React-CV/contact' element={<Contact/>} />
                 </Routes>
             <Footer />
         </Router>
