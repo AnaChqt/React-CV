@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <h1>My Works</h1>
             </div>
 
-            <div className="works display" >
+            <div className="works display mx-3" >
                 {projectsList.map((item, index) => {
                     return <WorkItem id={ index } item={ item } key={ item.order } />
                 })}

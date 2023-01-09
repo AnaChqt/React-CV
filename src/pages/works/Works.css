@@ -2,8 +2,8 @@
     margin-top: 7rem;
 }
 .display{
-    display: flex !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .works{
