@@ -4,8 +4,8 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
 import NavbarExpand from './components/Navbar';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './components/home/Home.js';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Works from './pages/works/Works';
 import WorkDisplay from './pages/projects/WorkDisplay';
@@ -15,13 +15,13 @@ function App() {
     return (
         <Router>
             <NavbarExpand />
-                <Switch>
-                    <Route path='/' element={<Home />} />
+                <Routes>
+                    <Route exact path='/React-CV' element={<Home />} />
                     <Route path='/about' element={<About/>} />
                     <Route path='/works' element={<Works/>} />
                     <Route path='/work/:id' element={<WorkDisplay/>} />
                     <Route path='/contact' element={<Contact/>} />
-                </Switch>
+                </Routes>
             <Footer />
         </Router>
     )
