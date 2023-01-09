@@ -14,13 +14,13 @@ const NavbarExpand = () => {
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="navbar-nav mt-2 ms-auto">
 							<Nav.Item class="nav-item">
-								<NavLink class="nav-link" to="/About">About</NavLink>
+								<NavLink class="nav-link" to="/about">About</NavLink>
 							</Nav.Item>
 							<Nav.Item class="nav-item">
-								<NavLink class="nav-link" to="/Works">Portfolio</NavLink>
+								<NavLink class="nav-link" to="/works">Portfolio</NavLink>
 							</Nav.Item>
 							<Nav.Item class="nav-item">
-								<NavLink class="nav-link" to="/Contact">Contact</NavLink>
+								<NavLink class="nav-link" to="/contact">Contact</NavLink>
 							</Nav.Item>
 						</Nav>
 					</Navbar.Collapse>
