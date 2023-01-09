@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-CV/static/css/main.d92586ea.css",
+    "main.css": "/React-CV/static/css/main.3d639a70.css",
     "main.js": "/React-CV/static/js/main.5afdbb9c.js",
     "static/js/787.11baedba.chunk.js": "/React-CV/static/js/787.11baedba.chunk.js",
     "static/media/cv.pdf": "/React-CV/static/media/cv.fbe31427de0cdc141b10.pdf",
@@ -31,12 +31,12 @@
     "static/media/calendar1.jpg": "/React-CV/static/media/calendar1.f81ecfa3d9ef5c645a5e.jpg",
     "static/media/cv1.jpg": "/React-CV/static/media/cv1.944a56ab5d4632b6e182.jpg",
     "index.html": "/React-CV/index.html",
-    "main.d92586ea.css.map": "/React-CV/static/css/main.d92586ea.css.map",
+    "main.3d639a70.css.map": "/React-CV/static/css/main.3d639a70.css.map",
     "main.5afdbb9c.js.map": "/React-CV/static/js/main.5afdbb9c.js.map",
     "787.11baedba.chunk.js.map": "/React-CV/static/js/787.11baedba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92586ea.css",
+    "static/css/main.3d639a70.css",
     "static/js/main.5afdbb9c.js"
   ]
 }
