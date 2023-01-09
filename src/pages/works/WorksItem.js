@@ -11,7 +11,7 @@ const WorkItem = ({ item, id }) => {
             <div className='pt-3 '>
                 <h5 className='fw-bold title'>{ item.title }</h5>
                 <div>
-                    <p className='fst-italic fs-6'>{ item.category }</p>
+                    <p className='fst-italic fs-6 pb-2'>{ item.category }</p>
                 </div>
             </div>
         </div>

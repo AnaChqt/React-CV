@@ -7,7 +7,7 @@ const Works = () => {
 	return (
 		<>
 			<Container fluid className="container-fluid box mb-5">
-				<Row className="d-flex mb-5">
+				<Row className=" mb-5">
 					<Portfolio />
 				</Row>
 			</Container>
