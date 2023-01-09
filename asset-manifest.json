@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/React-CV/static/css/main.d92586ea.css",
+    "main.js": "/React-CV/static/js/main.b2c519eb.js",
+    "static/js/787.11baedba.chunk.js": "/React-CV/static/js/787.11baedba.chunk.js",
+    "static/media/shifumi2.png": "/React-CV/static/media/shifumi2.a1f8fb27125b7c02da41.png",
+    "static/media/form2.png": "/React-CV/static/media/form2.d72d84f8256b9a601cdc.png",
+    "static/media/movies2.png": "/React-CV/static/media/movies2.c654a66d699dca878a5b.png",
+    "static/media/atelier2.png": "/React-CV/static/media/atelier2.390ff6a5a4bcfee37779.png",
+    "static/media/wanderlust2.png": "/React-CV/static/media/wanderlust2.d53455052b3e1705abfe.png",
+    "static/media/medic2.png": "/React-CV/static/media/medic2.b93f58f14874c5ee19da.png",
+    "static/media/movies1.jpg": "/React-CV/static/media/movies1.94fde3ad85c3c62c0b5a.jpg",
+    "static/media/ShiFuMi.png": "/React-CV/static/media/ShiFuMi.e01b13d6ee815488be69.png",
+    "static/media/Form.png": "/React-CV/static/media/Form.0baade52c9840106ff6d.png",
+    "static/media/cv2.png": "/React-CV/static/media/cv2.36abe37a4b88dad2e0b4.png",
+    "static/media/Movies.png": "/React-CV/static/media/Movies.11da765015011451e10a.png",
+    "static/media/calendar2.png": "/React-CV/static/media/calendar2.755b97fc8fcc52b7f882.png",
+    "static/media/profilePicture1.png": "/React-CV/static/media/profilePicture1.9657fc5e8a350373c604.png",
+    "static/media/form1.jpg": "/React-CV/static/media/form1.05bb81bb60e834ee2cac.jpg",
+    "static/media/profilePicture2.png": "/React-CV/static/media/profilePicture2.0d4dbecc4496f5cb7404.png",
+    "static/media/Wanderlust.png": "/React-CV/static/media/Wanderlust.0a2c7ad09d38ee2c6bb8.png",
+    "static/media/shifumi1.jpg": "/React-CV/static/media/shifumi1.7c118d0773d50c8dd031.jpg",
+    "static/media/wanderlust1.jpg": "/React-CV/static/media/wanderlust1.bd9f645f9b072c0b24f9.jpg",
+    "static/media/AtelierDouceur.png": "/React-CV/static/media/AtelierDouceur.a89a6224a472d37d95be.png",
+    "static/media/atelier1.jpg": "/React-CV/static/media/atelier1.5c9ccb610b167fa75c43.jpg",
+    "static/media/medic1.jpg": "/React-CV/static/media/medic1.69c37139e186a497e9e0.jpg",
+    "static/media/ManuMedic.png": "/React-CV/static/media/ManuMedic.b1081212125cdc96d26d.png",
+    "static/media/CV1.png": "/React-CV/static/media/CV1.6ec25b29bfda68ebb8af.png",
+    "static/media/Calendar.png": "/React-CV/static/media/Calendar.b7acefad190236782df8.png",
+    "static/media/calendar1.jpg": "/React-CV/static/media/calendar1.f81ecfa3d9ef5c645a5e.jpg",
+    "static/media/cv1.jpg": "/React-CV/static/media/cv1.944a56ab5d4632b6e182.jpg",
+    "index.html": "/React-CV/index.html",
+    "main.d92586ea.css.map": "/React-CV/static/css/main.d92586ea.css.map",
+    "main.b2c519eb.js.map": "/React-CV/static/js/main.b2c519eb.js.map",
+    "787.11baedba.chunk.js.map": "/React-CV/static/js/787.11baedba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d92586ea.css",
+    "static/js/main.b2c519eb.js"
+  ]
+}
