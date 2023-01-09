@@ -5,7 +5,7 @@ import './App.css';
 import NavbarExpand from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/home/Home';
+import Home from './components/home/Home';
 import About from './pages/about/About';
 import Works from './pages/works/Works';
 import WorkDisplay from './pages/projects/WorkDisplay';
