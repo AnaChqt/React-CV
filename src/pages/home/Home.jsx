@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import linkedin from '../../assets/linkedin.png';
 import github from '../../assets/github.png';
 import profile from '../../assets/profilePicture1.png';
+import cv from '../../assets/cv.pdf';
 
 const Home = () => {
 	return (
@@ -18,7 +19,7 @@ const Home = () => {
 							<a href="https://github.com/AnaChqt" target="_blank" rel="noopener noreferrer"><img src={ github } className="social" id="github" alt="Logo GitHub"/></a>
 						</div>
 						<div className="text-center py-4">
-							<a href="cv.pdf" download="cv.pdf"><Button className="btnCV" type="submit">Telecharger mon CV</Button></a>                
+							<a href={ cv } download><Button className="btnCV" type="submit">Telecharger mon CV</Button></a>                
 						</div>
 					</Col>
 					<Col xs={12} lg={5} className="d-flex justify-content-center align-items-center">
